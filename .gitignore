@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# Voice Output
+voice/
+
+# API Keys and Sensitive Info
+*.key
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
