@@ -138,7 +138,7 @@ def create_spmsg_file(messages: list, voice_name: str):
 if __name__ == "__main__":
     args = parse_arguments()
     print("Generating audio samples for iRacing spotter using ElevenLabs API...")
-    messages = parse_spmsg_file("spmsg sample 2024_03_07.txt")
+    messages = parse_spmsg_file("spmsg sample 2024_12_09.txt")
     generate_audio_samples(args.eleven_labs_api_key, args.voice_name, args.voice_id, messages)
     create_spmsg_file(messages, args.voice_name)
     print(f"Audio samples and spmsg.txt file generated in voice/spotter_{args.voice_name}")
